@@ -165,7 +165,7 @@
                   "uri": "full path where the buffer is used out of bounds"
                 },
                 "region": {
-                  "startLine": "line number of instruction which used the buffer our of its bounds"
+                  "startLine": "line number of instruction which used the buffer out of its bounds"
                 }
               }
             }
@@ -200,7 +200,7 @@
                             "uri": "full path where the buffer is used out of bounds"
                           },
                           "region": {
-                            "startLine": "line number of instruction which used the buffer our of its bounds"
+                            "startLine": "line number of instruction which used the buffer out of its bounds"
                           }
                         }
                       }
