@@ -47,7 +47,7 @@
                   "uri": "full path of the file where deallocated memory is used"
                 },
                 "region": {
-                  "startLine": "line number of instruction which is using the deallocated memory"
+                  "startLine": "line number of instruction which used deallocated memory"
                 }
               }
             }
@@ -67,7 +67,7 @@
                             "uri": "full path of the file where memory is allocated"
                           },
                           "region": {
-                            "startLine": "line number of exact instruction in that file"
+                            "startLine": "line number of instruction which allocated the memory"
                           }
                         }
                       }
@@ -82,7 +82,7 @@
                             "uri": "full path of the file where deallocated memory is used"
                           },
                           "region": {
-                            "startLine": "line number of exact instruction in that file"
+                            "startLine": "line number of instruction which used deallocated memory"
                           }
                         }
                       }
@@ -106,7 +106,7 @@
                   "uri": "full path where memory pointer is lost without deallocating"
                 },
                 "region": {
-                  "startLine": "line number of exact instruction in that file"
+                  "startLine": "line number of last instruction after which the memory address is lost"
                 }
               }
             }
@@ -126,7 +126,7 @@
                             "uri": "full path where memory is allocated"
                           },
                           "region": {
-                            "startLine": "line number of exact instruction in that file"
+                            "startLine": "line number of instruction which allocates a memory"
                           }
                         }
                       }
@@ -141,7 +141,7 @@
                             "uri": "full path where memory pointer is lost without deallocating"
                           },
                           "region": {
-                            "startLine": "line number of exact instruction in that file"
+                            "startLine": "line number of last instruction after which the memory address is lost"
                           }
                         }
                       }
@@ -165,7 +165,7 @@
                   "uri": "full path where the buffer is used out of bounds"
                 },
                 "region": {
-                  "startLine": "line number of exact instruction in that file"
+                  "startLine": "line number of instruction which used the buffer our of its bounds"
                 }
               }
             }
@@ -185,7 +185,7 @@
                             "uri": "full path where the buffer is created"
                           },
                           "region": {
-                            "startLine": "line number of exact instruction in that file"
+                            "startLine": "line number of instruction which created the buffer"
                           }
                         }
                       }
@@ -200,7 +200,7 @@
                             "uri": "full path where the buffer is used out of bounds"
                           },
                           "region": {
-                            "startLine": "line number of exact instruction in that file"
+                            "startLine": "line number of instruction which used the buffer our of its bounds"
                           }
                         }
                       }
