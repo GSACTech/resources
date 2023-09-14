@@ -3,6 +3,7 @@
 * This is a report file with a valid structure but completed with invalid values to explain what is
   expected in each field
 
+* Please pay attntion to get a valid report, because in case of invalid reports, the parser may fail and your score will decrease.
 * For any discussion follow the [link](https://github.com/GSACTech/contest/discussions)
 * Here is a list of some required fields with their explanation
     * `tool` - this contains the needed information about the analyzer
