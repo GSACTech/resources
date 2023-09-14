@@ -1,6 +1,6 @@
 # Report format explained for participants of [Global Software Analysis Competition](https://gsac.tech/)
 
-* This is a report file with a valid structure but completed with invalid values to explain what is
+* [This](./report.sarif) is a report file with a valid structure but completed with invalid values to explain what is
   expected in each field
 
 * Please pay attntion to get a valid report, because in case of invalid reports, the parser may fail and your score will decrease.
