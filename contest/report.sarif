@@ -64,10 +64,10 @@
                         },
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "full path of the file where memory is allocated"
+                            "uri": "full path of the file where memory is deallocated"
                           },
                           "region": {
-                            "startLine": "line number of instruction which allocated the memory"
+                            "startLine": "line number of instruction which deallocated the memory"
                           }
                         }
                       }
